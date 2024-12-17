@@ -21,12 +21,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "headshotYQ2022.png"#"profile.png"
   name             : "Yuqing Qiu"
   pronouns         : "she/her/hers" # example: "she/her"  
   bio              : "Trained as a physical chemist, driven by a passion for biophysics." #"Short biography for the left-hand sidebar"
-  location         : "Knoxville, TN"
-  employer         : "University of Tennessee, \\ Knoxville" #"Red Brick University"
+  location         : #"Knoxville, TN"
+  employer         : "U of Tennessee, Knoxville" #"Red Brick University"
   uri              : # URL
   email            : "yuqingqiu@utk.edu" #"none@example.org" 
 
