@@ -11,13 +11,12 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Chemistry (Valeria Molinero Group), University of Utah, 2018 
+* B.S. in Chemistry, Zhejiang University, 2012
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
+* Fall 2024:  
   * Github University
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
