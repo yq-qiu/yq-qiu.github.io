@@ -12,16 +12,16 @@ title                    : "QIU RESEARCH GROUP @ UTK PHYSICS"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://yq-qiu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "yq-qiu/yq-qiu.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshotYQ2022.png"#"profile.png"
+  avatar           : "profile.jpg" #"profile.png"
   name             : "Yuqing Qiu"
   pronouns         : "she/her/hers" # example: "she/her"  
   bio              : "Trained as a physical chemist, driven by a passion for biophysics." #"Short biography for the left-hand sidebar"
@@ -43,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/yq-qiu/" #"academicpages"
+  github           : "yq-qiu" #"academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
