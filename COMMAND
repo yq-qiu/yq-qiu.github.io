@@ -1,0 +1,18 @@
+bundle exec jekyll serve -l -H localhost
+#run on the host locally
+http://localhost:4000
+#check it out locally
+
+#Commit to online webiste 
+
+#edit publications 
+ _includes/archive-single.html 
+# add here the read the paper button
+
+
+#to do PUBLICATION
+#add the figures to each the publications 
+#add descriptions to each publication 
+#add before and after indepedent career later 
+
+

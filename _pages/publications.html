@@ -32,5 +32,10 @@ author_profile: true
   {% endfor %}
 {% endif %}
 
+{% if post.external_link %}
+  <p><a href="{{ post.external_link }}" target="_blank">
+    <i class="fas fa-external-link-alt"></i> Read the paper
+  </a></p>
+{% endif %}
 
 
