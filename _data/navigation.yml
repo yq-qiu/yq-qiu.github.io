@@ -8,6 +8,9 @@ main:
   - title: "Research"
     url: /portfolio/
 
+  #- title:"Open Positions"
+  #  url: /open_position/ #
+
   - title: "Publications"
     url: /publications/
 
@@ -26,3 +29,10 @@ main:
     
   #- title: "Guide"
   #  url: /markdown/
+  
+  # - title: "Team"
+  #  url: #
+
+  - title: "News"
+    url: /news/
+
