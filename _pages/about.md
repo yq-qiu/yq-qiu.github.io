@@ -9,7 +9,7 @@ redirect_from:
 header:
   overlay_image: "../images/mountain.jpg" # Path to your banner image
   overlay_filter: 0.3 # Optional: Adds a semi-transparent overlay (0.0-1.0)
-  caption: "Welcome to the Research Group at UTK"
+  caption: "Welcome to Qiu Research Group at UTK"
 ---
 
 We are a group of researchers...

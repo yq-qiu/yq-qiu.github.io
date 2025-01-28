@@ -5,6 +5,11 @@ permalink: /news/
 author_profile: false #true
 redirect_from:
   - /news
+
+header:
+  overlay_image: "../images/bryce.jpg" # Path to your banner image
+  overlay_filter: 0.3 # Optional: Adds a semi-transparent overlay (0.0-1.0)
+  caption: "Welcome to Qiu Research Group at UTK"
 ---
 
 {% include base_path %}
