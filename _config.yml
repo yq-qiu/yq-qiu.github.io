@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "QIU RESEARCH GROUP @ UTK PHYSICS"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Yuqing Qiu"
 description              : &description "personal description"
 url                      : https://yq-qiu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
