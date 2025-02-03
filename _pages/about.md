@@ -43,8 +43,9 @@ header:
 
         <!-- Images for the slideshow -->
         <div style="position: relative; width: 120%; height: auto; text-align: center;">
-            <img src="../images/cyto_v2.jpg" class="slide active" alt="Slide 1" style="width: 160%; height: auto; opacity: 1; transition: opacity 1s;">
-            <img src="../images/ice.jpg" class="slide" alt="Slide 2" style="width: 160%; height: auto; opacity: 0; position: absolute; top: 0; left: 0; transition: opacity 1s;">
+            <img src="../images/cyto.svg" class="slide active" alt="Slide 1" style="width: 160%; height: auto; opacity: 1; transition: opacity 1s;">
+            <img src="../images/ice.svg" class="slide" alt="Slide 2" style="width: 160%; height: auto; opacity: 0; position: absolute; top: 0; left: 0; transition: opacity 1s;">
+               <img src="../images/proposal.svg" class="slide" alt="Slide 2" style="width: 160%; height: auto; opacity: 0; position: absolute; top: 0; left: 0; transition: opacity 1s;">
         </div>
 
         <!-- Manual Navigation Buttons (Right) -->

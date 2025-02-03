@@ -8,7 +8,31 @@ author_profile: false #true
 {% include base_path %}
 
 
+
 {% for post in site.portfolio %}
+  
+  <!-- Insert first message -->
+  {% if post.insert_message_pd == true %}
+    <div class="custom-message">
+ <br> <!-- This creates an empty line -->
+ <br> <!-- This creates an empty line -->
+  <p style="text-align: center; font-weight: bold; font-size: 24px; margin-top: 20px; margin-bottom: 0px;">Postdoc Work (2019-2024)</p>
+  <hr style="border: 1px solid black; margin-top: 3px;"/>
+    </div>
+  {% endif %}
+
+  <!-- Insert second message -->
+  {% if post.insert_message_phd == true %}
+    <div class="custom-message">
+  <br> <!-- This creates an empty line -->
+  <br> <!-- This creates an empty line -->
+   <p style="text-align: center; font-weight: bold; font-size: 24px; margin-top: 20px; margin-bottom: 0px;">PhD Work (2012-2018)</p>
+  <hr style="border: 1px solid black; margin-top: 3px;"/>
+    </div>
+  {% endif %}
+
+  <!-- Regular post content -->
   {% include archive-single.html %}
+  
 {% endfor %}
 

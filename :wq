@@ -1,0 +1,48 @@
+---
+layout: archive
+title: "Research Interests"
+permalink: /portfolio/
+author_profile: false #true
+---
+
+{% include base_path %}
+
+
+
+{% for post in site.portfolio %}
+  {% if post.insert_message_pd == true %}
+    <div class="custom-message">
+      <p style="text-align: center; font-weight: bold;">Postdoc work 2019-2024</p>
+      <hr style="border: 1px solid black;"/>
+    </div>
+  {% endif %}
+
+  {% include archive-single.html %}
+{% endfor %}
+
+
+{% for post in site.portfolio %}
+  
+  <!-- Insert first message -->
+  {% if post.insert_message == true %}
+    <div class="custom-message">
+      <hr style="border: 1px solid black;"/>
+      <p style="text-align: center; font-weight: bold; font-size: 24px;">Postdoc work (2019-2024)</p>
+      <hr style="border: 1px solid black;"/>
+    </div>
+  {% endif %}
+
+  <!-- Insert second message -->
+  {% if post.insert_message_phd == true %}
+    <div class="custom-message">
+      <hr style="border: 1px solid black;"/>
+      <p style="text-align: center; font-weight: bold; font-size: 24px;">PhD Work (2012-2018)</p>
+      <hr style="border: 1px solid black;"/>
+    </div>
+  {% endif %}
+
+  <!-- Regular post content -->
+  {% include archive-single.html %}
+  
+{% endfor %}
+
