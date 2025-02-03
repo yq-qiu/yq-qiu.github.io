@@ -24,9 +24,9 @@ header:
 
 <!-- Research Topics Section -->
 <div style="width: 100%; text-align: center;">
-  <span style="font-size: 18px; color: lightblue; line-height: 1.5; display: inline-block; width: 100%;">
+  <span style="font-size: 16px; color: lightblue; line-height: 1.5; display: inline-block; width: 100%;">
     • Self-organization in Cytoskeletal Networks • Biological Ice Nucleation  <br>
-    • Nucleation in Active Biophysics Systems • Driven Soft Matter and Driven Amorphous Materials <br>
+    • Nucleation in Active Biophysics Systems • Driven Soft Matter and Amorphous Materials <br>
     • Statistical Mechanics • Non-Equilibrium Thermodynamics • Machine Learning  <br>
     • Agent-based Simulations • Coarse-Grained Models • Molecular Dynamics • Kinetic Monte Carlo
   </span>
@@ -43,7 +43,7 @@ header:
 
         <!-- Images for the slideshow -->
         <div style="position: relative; width: 120%; height: auto; text-align: center;">
-            <img src="../images/cyto.jpg" class="slide active" alt="Slide 1" style="width: 160%; height: auto; opacity: 1; transition: opacity 1s;">
+            <img src="../images/cyto_v2.jpg" class="slide active" alt="Slide 1" style="width: 160%; height: auto; opacity: 1; transition: opacity 1s;">
             <img src="../images/ice.jpg" class="slide" alt="Slide 2" style="width: 160%; height: auto; opacity: 0; position: absolute; top: 0; left: 0; transition: opacity 1s;">
         </div>
 
