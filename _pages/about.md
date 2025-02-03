@@ -12,19 +12,19 @@ header:
   caption: "Welcome to Qiu Research Group at UTK"
 ---
 <!-- Research Group Description -->
-<div style="width: 100%; margin: 0 auto; text-align: center;">
-  <p style="font-size: 18px;">
+<div style="width: 150%; margin: 0 auto; text-align: center;  margin-left: -25%;">
+  <p style="font-size: 24px;">
     We investigate non-equilibrium emergent behaviors in <b>soft matter</b> and <b>biophysics</b> with <b>computer simulations</b>, <b>machine learning techniques</b>, and <b>theory</b>.
   </p>
 
-  <p style="font-size: 18px;">
+  <p style="font-size: 24px;">
     We aim to formulate theoretical frameworks that unveil the interplay of activity, force generation, and emergent architectures.
   </p>
 </div>
 
 <!-- Research Topics Section -->
-<div style="width: 100%; text-align: center;">
-  <span style="font-size: 16px; color: lightblue; line-height: 1.5; display: inline-block; width: 100%;">
+<div style="width: 150%; text-align: center; margin-left: -30%;">
+  <span style="font-size: 24px; color: lightblue; line-height: 1.5; display: inline-block; width: 100%;">
     • Self-organization in Cytoskeletal Networks • Biological Ice Nucleation  <br>
     • Nucleation in Active Biophysics Systems • Driven Soft Matter and Amorphous Materials <br>
     • Statistical Mechanics • Non-Equilibrium Thermodynamics • Machine Learning  <br>
@@ -32,8 +32,10 @@ header:
   </span>
 </div>
 
+
+
 <!-- Slideshow Container -->
-<div class="slideshow-container" style="margin-top: 20px; text-align: center; position: relative; max-width: 80%; margin-left: auto; margin-right: auto; height: 500px;">
+<div class="slideshow-container" style="margin-top: 22px; text-align: center; position: relative; max-width: 80%; margin-left: auto; margin-right: auto; height: 500px;">
 
     <!-- Slideshow Content Wrapper -->
     <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
