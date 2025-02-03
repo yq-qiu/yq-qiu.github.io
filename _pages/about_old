@@ -1,0 +1,57 @@
+---
+permalink: /
+title:  "Qiu Research Group at UTK" #"Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: false #true
+redirect_from: 
+  - /about/
+  - /about.html
+
+header:
+  overlay_image: "../images/mountain.jpg" # Path to your banner image
+  overlay_filter: 0.3 # Optional: Adds a semi-transparent overlay (0.0-1.0)
+  caption: "Welcome to Qiu Research Group at UTK"
+---
+<div style="width: 120%; margin: 0 auto; text-align: center; position: relative; left: -10%;">
+  <p style="font-size: 18px;">
+    We investigate non-equilibrium emergent behaviors in <b>soft matter</b> and <b>biophysics</b> with <b>computer simulations</b>, <b>machine learning techniques</b>, and <b>theory</b>.
+  </p>
+
+  <p style="font-size: 18px;">
+    We aim to formulate theoretical frameworks that unveil the interplay of activity, force generation, and emergent architectures.
+  </p>
+</div>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <span style="font-size: 18px; color: lightblue; line-height: 1.5; display: inline-block; width: 120%;">
+    • Self-organization in Cytoskeletal Networks • Biological Ice Nucleation  <br>
+    • Nucleation in Active Biophysicis Systems • Driven Soft Matter and Driven Amorphous Materials <br>
+    • Statistical Mechanics • Non-Equilibrium Thermodynamics • Machine Learning  <br>
+    • Agent-based Simulations • Coarse-Grained Models • Molecular Dynamics • Kinetic Monte Carlo
+  </span>
+</div>
+
+
+
+<!-- Image container for two images side by side -->
+<div style="display: flex; justify-content: center; gap: 10px; width: 200%; transform: scale(1); transform-origin: center;">
+  <img src="../images/cyto.jpg" alt="Image 1" style="width: 50%; height: auto;">
+  <img src="../images/cyto.jpg" alt="Image 2" style="width: 50%; height: auto;">
+</div>
+
+
+
+<!-- Image container for one picture -->
+<div style="display: flex; justify-content: center; margin-top: 15px;">
+  <img src="../images/cyto.jpg" alt="Image 1" style="width: 30%; height: auto;">
+</div>
+
+<div style="text-align: center; margin-top: 15px;">
+  <a href="../images/cyto.pdf" target="_blank" style="font-size: 18px; color: lightblue; text-decoration: none;">
+    📄 View PDF: Cytoskeletal Networks
+  </a>
+</div>
