@@ -76,6 +76,6 @@ header:
     }
 
     // Auto-slide every 3 seconds  
-    setInterval(() => changeSlide(1), 3000);
+    setInterval(() => changeSlide(1), 2000);
 </script>
 
