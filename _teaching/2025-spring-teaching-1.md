@@ -6,7 +6,7 @@ type: "Undergraduate course"
 venue: "UTK, Physics"
 date: 2025-01-20
 #location: "City, Country"
-external_link: "http://labman.phys.utk.edu/phys221/"
+#external_link: "http://labman.phys.utk.edu/phys221/"
 ---
  
 You can find more details about the course [here](http://labman.phys.utk.edu/phys221/).
