@@ -2,42 +2,182 @@
 layout: archive
 title: "Research Interests"
 permalink: /portfolio/
-author_profile: false #true
+author_profile: false
 
 header:
   overlay_image: "../images/Arcadia2.jpg"
-  overlay_filter: 0.1 # Reduced overlay for a brighter appearance
+  overlay_filter: 0.1
   caption: "Welcome to Qiu Research Group at UTK"
 ---
 
 {% include base_path %}
 
-
-
-{% for post in site.portfolio %}
-  
-  <!-- Insert first message -->
-  {% if post.insert_message_pd == true %}
-    <div class="custom-message">
- <br> <!-- This creates an empty line -->
- <br> <!-- This creates an empty line -->
-  <p style="text-align: center; font-weight: bold; font-size: 24px; margin-top: 20px; margin-bottom: 0px;">Postdoc Work (2019-2024)</p>
-  <hr style="border: 1px solid black; margin-top: 3px;"/>
-    </div>
+<div class="portfolio-page-container">
+  {% if site.portfolio.size == 0 %}
+    <p class="empty-message">
+      No research projects found. Please check back later.
+    </p>
   {% endif %}
 
-  <!-- Insert second message -->
-  {% if post.insert_message_phd == true %}
-    <div class="custom-message">
-  <br> <!-- This creates an empty line -->
-  <br> <!-- This creates an empty line -->
-   <p style="text-align: center; font-weight: bold; font-size: 24px; margin-top: 20px; margin-bottom: 0px;">PhD Work (2012-2018)</p>
-  <hr style="border: 1px solid black; margin-top: 3px;"/>
-    </div>
-  {% endif %}
+  <!-- Portfolio Grid Container -->
+  <div class="portfolio-grid">
+    {% for post in site.portfolio %}
+      <!-- Insert Postdoc Section Header -->
+      {% if post.insert_message_pd == true %}
+        <div class="portfolio-section">
+          <h2>Postdoc Work (2019-2024)</h2>
+          <hr class="portfolio-divider"/>
+        </div>
+      {% endif %}
 
-  <!-- Regular post content -->
-  {% include archive-single.html %}
-  
-{% endfor %}
+      <!-- Insert PhD Section Header -->
+      {% if post.insert_message_phd == true %}
+        <div class="portfolio-section">
+          <h2>PhD Work (2012-2018)</h2>
+          <hr class="portfolio-divider"/>
+        </div>
+      {% endif %}
+
+      <!-- Portfolio Item -->
+      <div class="portfolio-item">
+        <a href="{{ post.url }}">
+          <div class="portfolio-image">
+            <img src="{{ post.image | default: '/images/default.jpg' }}" alt="{{ post.title }}">
+          </div>
+          <div class="portfolio-content">
+            <h3>{{ post.title }}</h3>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Modern Styling -->
+<style>
+  /* Global Styling */
+  :root {
+    --primary-color: #007acc;
+    --bg-color: #ffffff;
+    --text-color: #333;
+    --border-radius: 20px;
+    --transition-speed: 0.3s;
+    --box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    --hover-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+  }
+
+  .portfolio-page-container {
+    margin-top: 150px;
+    padding: 60px;
+    max-width: 1800px;
+    margin: auto;
+  }
+
+  .empty-message {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-top: 50px;
+  }
+
+  /* Responsive Grid with Big Panels */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); /* Big panels */
+    gap: 50px;
+    padding: 40px;
+    justify-content: center;
+  }
+
+  /* Portfolio Item - Big Panels with Flexible Height */
+  .portfolio-item {
+    background: var(--bg-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: all var(--transition-speed) ease-in-out;
+    text-align: center;
+    position: relative;
+    transform-origin: center;
+    will-change: transform;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .portfolio-item:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: var(--hover-shadow);
+  }
+
+  /* Portfolio Image - Scaled to Fit Without Cropping */
+  .portfolio-image {
+    width: 100%;
+    max-height: 400px; /* Keeps images from getting too big */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  .portfolio-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensures images fit properly without being cropped */
+    display: block;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .portfolio-item:hover .portfolio-image img {
+    transform: scale(1.05);
+  }
+
+  /* Portfolio Content */
+  .portfolio-content {
+    padding: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+
+  .portfolio-content h3 {
+    margin: 0;
+    font-size: 28px;
+    text-transform: capitalize;
+  }
+
+  /* Section Headers */
+  .portfolio-section {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+    grid-column: 1 / -1;
+  }
+
+  .portfolio-divider {
+    border: 4px solid var(--primary-color);
+    width: 120px;
+    margin: 20px auto;
+  }
+
+  /* Mobile Responsive Adjustments */
+  @media (max-width: 900px) {
+    .portfolio-page-container {
+      margin-top: 100px;
+      padding: 20px;
+    }
+
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .portfolio-image {
+      max-height: 300px;
+    }
+  }
+</style>
 

@@ -7,6 +7,9 @@
 main:
   - title: "Research"
     url: /portfolio/
+  
+  - title: "Team"
+    url: /members/
 
   #- title:"Open Positions"
   #  url: /open_position/ #

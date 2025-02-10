@@ -1,0 +1,114 @@
+---
+layout: archive
+title: "Members"
+permalink: /members/
+author_profile: false
+
+header:
+  overlay_image: "../images/Arcadia.jpg" # Replace with your preferred image
+  overlay_filter: 0.1
+  caption: "Meet Our Team"
+---
+
+{% include base_path %}
+
+{% assign members = site.members.docs %}
+
+{% if members.size == 0 %}
+  <p style="text-align: center; font-size: 22px; font-weight: bold; margin-top: 50px;">
+    No members found. Please check back later.
+  </p>
+{% else %}
+<!-- Members Grid Container -->
+<div class="members-grid">
+  {% for member in members %}
+    <div class="member-item">
+      <a href="{{ member.url | relative_url }}">
+        <div class="member-image">
+          <img src="{{ member.image | default: '/images/default-member.jpg' }}" alt="{{ member.name }}">
+        </div>
+        <div class="member-content">
+          <h3>{{ member.name }}</h3>
+          <p>{{ member.role }}</p>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Styling for Members Page -->
+<style>
+  :root {
+    --primary-color: #007acc;
+    --bg-color: #ffffff;
+    --text-color: #333;
+    --border-radius: 16px;
+    --transition-speed: 0.3s;
+    --box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    --hover-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .member-item {
+    background: var(--bg-color);
+    border: 1px solid #e0e0e0;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: transform var(--transition-speed) ease-in-out, box-shadow var(--transition-speed) ease-in-out;
+    text-align: center;
+  }
+
+  .member-item:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--hover-shadow);
+  }
+
+  .member-image {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .member-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+
+  .member-content {
+    padding: 20px;
+    color: var(--text-color);
+  }
+
+  .member-content h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .member-content p {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .member-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
+
