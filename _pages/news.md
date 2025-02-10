@@ -7,7 +7,7 @@ redirect_from:
   - /news
 
 header:
-  overlay_image: "../images/Arcadia.png"
+  overlay_image: "../images/Arcadia.jpg"
   overlay_filter: 0.1 # Reduced overlay for a brighter appearance
   caption: "Welcome to Qiu Research Group at UTK"
 ---
