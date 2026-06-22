@@ -18,6 +18,19 @@ header:
 <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
   
   <h2 style="text-align: center; color: #007acc; font-weight: bold;">Latest News</h2>
+
+  <!-- December 2025 -->
+  <div style="background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h3 style="color: #333;">Dec 2025: The Qiu Lab Briefly Defies Gravity</h3>
+    <p>Our first winter group photo is here, featuring excellent science, good cheer, and a suspicious amount of floating.</p>
+    <img src="/images/group-winter-2025.jpg" alt="Qiu Research Group winter 2025 group photo" style="width: 100%; border-radius: 8px; margin-top: 10px;">
+  </div>
+
+  <!-- June 2025 -->
+  <div style="background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h3 style="color: #333;">June 2025: Welcome, Ling-Fang and Aritra!</h3>
+    <p>We are excited to welcome Dr. Ling-Fang Lin and Aritra Banerjee to the Qiu Research Group.</p>
+  </div>
   
   <!-- February 2025 -->
   <div style="background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
@@ -37,4 +50,3 @@ header:
   </div>
 
 </div>
-
