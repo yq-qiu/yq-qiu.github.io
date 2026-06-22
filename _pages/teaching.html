@@ -2,11 +2,62 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="teaching-page">
+  <h2>Courses</h2>
+
+  <div class="course-list">
+    <div class="course-item">
+      <h3>PHYS 221, Elements of Physics I</h3>
+      <p>Spring 2025, Fall 2026</p>
+    </div>
+
+    <div class="course-item">
+      <h3>PHYS 222, Elements of Physics II</h3>
+      <p>Fall 2025</p>
+    </div>
+
+    <div class="course-item">
+      <h3>PHYS 321, Thermal Physics</h3>
+      <p>Spring 2026</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .teaching-page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .teaching-page h2 {
+    margin-top: 0;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 1.35rem;
+  }
+
+  .course-list {
+    margin-top: 1.5rem;
+  }
+
+  .course-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .course-item h3 {
+    margin: 0 0 0.25rem;
+    font-size: 1.05rem;
+  }
+
+  .course-item p {
+    margin: 0;
+    color: #555;
+  }
+</style>

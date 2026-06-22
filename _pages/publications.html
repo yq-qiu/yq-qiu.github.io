@@ -10,11 +10,14 @@ header:
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="publication-links">
+    <a href="{{site.author.googlescholar}}" target="_blank">Google Scholar</a>
+  </div>
 {% endif %}
 
 {% include base_path %}
 
+<div class="publications-page">
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -24,7 +27,7 @@ header:
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
@@ -35,11 +38,55 @@ header:
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
+</div>
 
-{% if post.external_link %}
-  <p><a href="{{ post.external_link }}" target="_blank">
-    <i class="fas fa-external-link-alt"></i> Read the paper
-  </a></p>
-{% endif %}
+<style>
+  .publication-links {
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    padding: 0 20px;
+    text-align: right;
+  }
 
+  .publication-links a {
+    font-weight: 600;
+  }
 
+  .publications-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+  }
+
+  .publications-page h2 {
+    margin-top: 1.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 1.3rem;
+  }
+
+  .publication-item {
+    padding: 1.1rem 0;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .publication-item .archive__item-title {
+    margin: 0 0 0.45rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+
+  .publication-meta {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+  }
+
+  .publication-link {
+    margin: 0.55rem 0 0;
+  }
+
+  .publication-link a {
+    font-weight: 600;
+  }
+</style>
