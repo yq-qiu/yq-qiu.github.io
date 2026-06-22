@@ -27,7 +27,7 @@ main:
   #- title: "Blog Posts"
   #  url: /year-archive/
     
-  - title: "CV"
+  - title: "PI"
     url: /cv/
     
   #- title: "Guide"
@@ -38,4 +38,3 @@ main:
 
   - title: "News"
     url: /news/
-
