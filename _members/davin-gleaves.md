@@ -1,7 +1,7 @@
 ---
 name: "Davin Gleaves"
 role: "Undergraduate Student"
-image: "/images/default-member.jpg"
+image: "/images/davin-gleaves.jpg"
 url: "/members/davin-gleaves/"
 joined: "June 2026"
 ---
