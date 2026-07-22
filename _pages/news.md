@@ -29,7 +29,7 @@ header:
   <!-- March 2026 -->
   <div style="background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     <h3 style="color: #333;">March 2026: Welcome, Dr. Yongtian Luo!</h3>
-    <p>We are excited to welcome Dr. Yongtian Luo to the Qiu Research Group.</p>
+    <p>Dr. Yongtian Luo joins the Qiu Research Group as a postdoctoral researcher.</p>
   </div>
 
   <!-- December 2025 -->
