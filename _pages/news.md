@@ -23,7 +23,7 @@ header:
   <div style="background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     <h3 style="color: #333;">July 2026: Summer Lunch with the Group</h3>
     <p>The Qiu Research Group gathered for a summer lunch together.</p>
-    <img src="/images/group-summer-lunch-2026.jpg" alt="Qiu Research Group summer lunch in July 2026" style="width: 100%; border-radius: 8px; margin-top: 10px;">
+    <img src="/images/group-summer-lunch-2026.jpg" alt="Qiu Research Group summer lunch in July 2026" style="width: 70%; border-radius: 8px; margin: 10px auto 0; display: block;">
   </div>
 
   <!-- December 2025 -->
