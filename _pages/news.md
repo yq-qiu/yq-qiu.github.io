@@ -19,6 +19,12 @@ header:
   
   <h2 style="text-align: center; color: #007acc; font-weight: bold;">Latest News</h2>
 
+  <!-- March 2026 -->
+  <div style="background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h3 style="color: #333;">March 2026: Welcome, Dr. Yongtian Luo!</h3>
+    <p>We are excited to welcome Dr. Yongtian Luo to the Qiu Research Group.</p>
+  </div>
+
   <!-- July 2026 -->
   <div style="background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     <h3 style="color: #333;">July 2026: Summer Lunch with the Group</h3>
